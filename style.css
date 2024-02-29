@@ -39,5 +39,9 @@ button{
     flex-direction: column;
     gap: 20px;
     margin: 30px;
+    width: 100%;
 }
-
+.timer-1 button{
+    /* text-align: center; */
+    margin-left: 50px;
+}
