@@ -18,30 +18,60 @@
  }
 
 .time-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* width: 50%; */
     margin: 40px;
     padding: 15px;
     background-color: white;
     height: 50px;
 }
-button{
-    padding: 5px;
+.time-box button{
+    padding: 3px;
+    width: 10rem;
     background-color: green;
     border: none;
     color: white;
     border-radius: 3px;
 }
-.timer-1,.timer-2{
-    display: flex;
-    font-weight: 700;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    margin: 30px;
+
+.time-box input{
+    width: 10%;
+}
+
+
+.main{
     width: 100%;
+    height: 20%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    flex-wrap:wrap ;
+    
+}
+.timer-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 20px;
+    width: 40%;
 }
 .timer-1 button{
-    /* text-align: center; */
-    margin-left: 50px;
+    padding: 8px;
+    background-color: green;
+    border: none;
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
 }
+
+/* .timer{
+margin-bottom: 20px;
+} */

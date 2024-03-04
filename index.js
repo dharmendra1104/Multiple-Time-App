@@ -3,7 +3,7 @@ let minutes=document.querySelector('.input-2')
 let seconds = document.querySelector('.input-3')
 
 let timer1 = document.querySelector('.timer-1')
-let timer2=document.querySelector('.timer-2')
+// let timer2=document.querySelector('.timer-2')
 
 let second = 0
 let button = document.querySelector('.btn')
@@ -69,3 +69,9 @@ seconds.addEventListener('input', () => {
         timer1.style.display = 'none';
     }
 });
+
+
+
+
+
+
